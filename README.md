@@ -10,7 +10,6 @@
 
 - Bash betikleriyle yazıldığı için yalnızca `bash` kabuğunda çalışır. `fish`, `zsh` gibi alternatif kabuklarla uyumlu değildir.  
 - *"Tamamen" Türkçe demek tam doğru olmaz; tüm komutlar Türkçeye çevrilmedi. Ancak düzenli olarak yeni Türkçe komutlar eklenmeye devam edecek.*
-- Paket yönetimi ile ilgili komutlar yalnızca Arch tabanlı sistemlerde (örneğin: Manjaro, EndeavourOS) çalışır (`pacman` kullanır).
 
 ## Komutlar
 
@@ -18,8 +17,6 @@
 |------------------------|-------------------------------|----------|
 | `durum`                | `neofetch`                    | Sistemin temel bilgilerini ASCII sanatıyla gösterir. `neofetch` yüklü olmalıdır.          |
 | `hızlıdurum`           | `fastfetch`                   | `neofetch`'in daha hızlı çalışan alternatifi. `fastfetch` yüklü olmalıdır.                |
-| `kaldır`               | `sudo pacman -Rs <paket>`     | Paketi ve artık kullanılmayan bağımlılıklarını kaldırır.                                  |
-| `kaldır-c`             | `sudo pacman -Rns <paket>`    | Paketi, bağımlılıklarını ve yapılandırma dosyalarını kaldırır.                            |
 | `kapat`                | `shutdown`                    | Sistemi kapatır. (Şimdilik `kapat now` gibi İngilizce parametrelerle kullanılmalı.)       |
 | `kopyala`              | `cp`                          | Dosya veya dizinleri kopyalar.                                                            |
 | `kullanıcıdeğiştir`    | `su`                          | Belirttiğiniz kullanıcıya geçiş yapar.                                                    |
